@@ -1,0 +1,68 @@
+body{
+    font-family:sans-serif, verdana, Geneva, Tahoma;
+    color: purple;
+}
+
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes a{
+    color: purple;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.menu-opcoes{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+#imglogo{
+    width: 10%;
+    height: 10%;
+}
+
+.painel{
+    width: 40%;
+    margin: 10px 0;
+    padding:10px ;
+}
+
+.aula1{
+    float: left;
+    background-color: grey;
+}
+
+.aula2{
+    float: right;
+    background-color: grey;
+}
+
+.painel li{
+    display: inline-block;
+    width:10% ;
+    vertical-align:top ;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2{
+    font-size: 20px;
+}
+
+.painel a{
+    color: blue;
+}
+
