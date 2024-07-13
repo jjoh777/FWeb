@@ -1,0 +1,14 @@
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+/* [href*=] busca a palavra dentro de container */
+.container a[href*=github]{
+    color: rgba(0, 255, 204, 0.732);
+}
+
+.container a[href*=instagram]{
+    color: pink;
+}

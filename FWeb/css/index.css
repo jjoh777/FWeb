@@ -29,13 +29,13 @@ body{
     margin-left: 20px;
 }
 
-#imglogo{
+.imglogo{
     width: 10%;
-    height: 10%;
+    height: 10%;    
 }
 
 .painel{
-    width: 40%;
+    width: 48%;
     margin: 10px 0;
     padding:10px ;
 }
@@ -65,4 +65,40 @@ body{
 .painel a{
     color: blue;
 }
+
+.social li a[href*=github]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/iconegithub.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+.social li a[href*=instagram]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/logo-instagram-png-fundo-transparente.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+footer{
+    clear: both;
+    position: absolute;
+}
+
+.social li{
+    float: left;
+    margin-right: 20px  ;
+}
+
+.social{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
 
